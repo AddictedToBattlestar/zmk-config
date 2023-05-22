@@ -25,6 +25,7 @@
 #define EXTRACT LA(LG(M))
 #define RUN LA(LG(R))
 
+// Put Mac to sleep
 #define SLEEP LC(LS(K_PWR))
 
 / {
