@@ -28,7 +28,7 @@
 #define SLEEP LC(LS(K_PWR))
 
 // Mac Zoom (you have to turn on via Accessibility/Zoom/Keyboard shortcuts)
-#define ZOOM LG(LA(8))
+#define ZOOM LG(LA(N8))
 #define ZIN LG(LA(MINUS))
 #define ZOUT LG(LA(EQUAL))
 
