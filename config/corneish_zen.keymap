@@ -65,9 +65,9 @@
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |||||  N  |  M  |  ,  |  .  |  /  | ENT  |
 //                    |CTRL |moSYM| GUI ||||| SPC |moNUM| ALT |
                         bindings = <
-   &guitl    &kp Q     &kp W     &kp E     &kp R      &kp T           &kp Y     &kp U      &kp I     &kp O     &kp P     &kp BSLH
-   &kp TAB   &kp A     &kp S     &kp D     &kp F      &kp G           &kp H     &kp J      &kp K     &kp L     &kp SEMI  &kp SQT
-   &kp LSHFT &kp Z     &kp X     &kp C     &kp V      &kp B           &kp N     &kp M      &kp COMMA &kp DOT   &kp FSLH  &mt RSHFT RET
+   &guitl    &kp Q     &kp W        &kp E       &kp R       &kp T           &kp Y     &kp U       &kp I           &kp O         &kp P     &kp BSLH
+   &kp TAB   &kp A     &kp S        &kp D       &kp F       &kp G           &kp H     &kp J       &kp K           &kp L         &kp SEMI  &kp SQT
+   &kp LSHFT &kp Z     &mt LCTRL X  &mt LALT C  &mt LGUI V  &kp B           &kp N     &mt RGUI M  &mt RALT COMMA  &mt RCTRL DOT &kp FSLH  &mt RSHFT RET
                                  &kp LCTRL &mo SYMBOL &kp LGUI        &kp SPACE &lt NUMPAD TAB &kp RALT
                         >;
                 };
@@ -77,7 +77,7 @@
 // -----------------------------------------------------------------------------------------
 // |  ~   |  !  |  @  |  #  |  $  |  %  |||||  ^  |  &  |  *  | "|" |  (  |  )   |
 // |  `   |     |     |     |  _  |  -  |||||     | LFT |  UP | RGT |  {  |  }   |
-// | MUTE |VOL D|VOL U|     |  =  |  +  |||||     | LFT | DWN | RGT |  [  |  ]   |
+// |      | MUTE|VOL D|VOL U|  =  |  +  |||||     | LFT | DWN | RGT |  [  |  ]   |
 //                    |moBLU|     |     ||||| BSPC|     |     |
                         bindings = <
    &kp TILDE  &kp EXCL     &kp AT       &kp HASH     &kp DLLR  &kp PRCNT       &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp PIPE   &kp LPAR  &kp RPAR
